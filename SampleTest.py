@@ -6,3 +6,7 @@ class MyUser(User):
     @task
     def my_task(self):
         print("Its my first sample task")
+
+    @task
+    def my_task2(self):
+        print("Its my first sample task")
